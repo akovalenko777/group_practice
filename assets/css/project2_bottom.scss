@@ -10,6 +10,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 200px;
+    margin: 0 10px 224px;
 }
 .image_project-foto{
     display: flex;
@@ -24,12 +25,16 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
-    max-width: 400px;
     margin: 0 auto;
 }
 .fashion_project-contant{
-    position: relative
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 11;
 }
 .fashion_project-text{
     font-family: 'Clash Display';
@@ -43,9 +48,50 @@ img{
 .fashion_project-title{
     font-family: 'Clash Display';
     font-weight: 400;
-    font-size: 200px;
+    font-size: 190px;
     line-height: 90%;
     color: #DB574D;
     text-transform: uppercase;
     text-align: center;
+}
+.fashion_project-foto{
+    position: relative;
+    z-index: 10;
+    top: -90px;
+    margin: 0 10px;
+}
+
+@media (max-width: 840px) {
+.fashion_project-title{
+    font-size: 150px;
+}
+.foto_padding{
+    
+    margin: 0 50px;
+}
+}
+@media (max-width: 665px) {
+.fashion_project-title{
+    font-size: 110px;
+}
+.foto_padding{
+    margin: 0 10px;
+}
+}
+@media (max-width: 500px) {
+.fashion_project-title{
+    font-size: 80px;
+}
+.fashion_project-text{
+    font-size: 50px;
+}
+.foto_padding{
+    margin: 0;
+}
+.image_project-foto{
+    flex-direction: column;
+}
+.image_progect{
+    gap:10px;
+}
 }
