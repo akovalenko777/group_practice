@@ -55,9 +55,31 @@ main {
 }
 
 .first_screen_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 128px;
 }
 
+.about_details_wrap {
+  margin-left: 586px;
+}
+
 .about_wrap {
+  display: flex;
+  gap: 104px;
   margin-bottom: 128px;
+}
+
+.about_text_wrap > p {
+  margin-bottom: 60px;
+}
+.about_text_wrap > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.details_wrap {
+  display: flex;
+  gap: 104px;
 }
