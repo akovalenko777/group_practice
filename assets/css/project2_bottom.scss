@@ -1,0 +1,51 @@
+@import "style.scss";
+img{
+    width: 100%;
+}
+.page_wrapper_project{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.image_progect{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.image_project-foto{
+    display: flex;
+}
+.foto_padding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 175px;
+}
+.fashion_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.fashion_project-contant{
+    position: relative
+}
+.fashion_project-text{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.fashion_project-title{
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 90%;
+    color: #DB574D;
+    text-transform: uppercase;
+    text-align: center;
+}
