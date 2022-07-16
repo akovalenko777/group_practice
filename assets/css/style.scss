@@ -11,10 +11,11 @@ html, body {
 
 body {
     background-color: #fff;
-    font-family: 'ClashDisplay', 'Arial', sans-serif;
+    font-family: 'ClashDisplay-Regular', 'Arial', sans-serif;
     color: #252525;
     font-size: 1rem;
     line-height: 1.5rem;
+    
 }
 
 .container {
@@ -53,3 +54,5 @@ main {
 
 @import 'quote.scss';
 @import "independent.scss"
+@import "project2-dancing-in-black-white.scss";
+

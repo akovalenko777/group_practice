@@ -1,0 +1,98 @@
+.quote_flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+}
+
+.quote_heading_bg {
+  font-size: 70px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #101010;
+  margin-bottom: 16px;
+}
+.quote_heading_bg span {
+  margin-left: 21px;
+  color: #DB574D;
+  text-transform: none;
+}
+
+.quote_heading_sm {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #101010;
+  margin-bottom: 45px;
+}
+.quote_heading_sm span {
+  color: #DB574D;
+}
+
+.quote_btn {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 120%;
+  padding: 16px 59px 16px 20px;
+  border: 1px solid #DB574D;
+  border-radius: 100px;
+  color: #DB574D;
+}
+.quote_btn:hover {
+  text-decoration: none;
+}
+.quote_btn span {
+  position: relative;
+}
+.quote_btn span:before {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: 12px;
+  width: 30px;
+  height: 1px;
+  border-bottom: 1px solid #DB574D;
+}
+.quote_btn span:after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #DB574D;
+  border-right: 1px solid #DB574D;
+  transform: rotate(-45deg);
+}
+
+.quote_card {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  padding-bottom: 96px;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+}
+
+.ptopcards {
+  padding-top: 96px;
+}
+
+.quote_card_descr p {
+  margin-bottom: 30px;
+}
+.quote_card_descr p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.quote_card_heading {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 24px;
+}
+.quote_card_heading h4 {
+  padding-right: 35px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #101010;
+}
