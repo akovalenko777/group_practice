@@ -53,3 +53,11 @@ h1 {
 main {
   flex-grow: 1;
 }
+
+.first_screen_container {
+  margin-bottom: 128px;
+}
+
+.about_wrap {
+  margin-bottom: 128px;
+}
