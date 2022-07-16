@@ -1,1 +1,1 @@
-#first_screen h1{font-size:200px;color:#DB574D}#first_screen h2{font-size:60px;line-height:110%;text-transform:uppercase;color:#101010}#first_screen .first_screen_block{display:grid;grid-template-columns:repeat(2,1fr)}
+.first_screen{display:flex;justify-content:center}.first_screen h1{font-size:200px;color:#DB574D}.first_screen h2{font-size:60px;line-height:110%;font-weight:400;text-transform:uppercase;color:#101010}.first_screen_item{position:absolute;top:100px;right:0}
