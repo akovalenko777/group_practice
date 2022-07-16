@@ -1,0 +1,1 @@
+.view_all{position:relative}.view_all::before{content:"";position:absolute;top:0;left:0;width:30px;height:1px;border-top:1px solid #000}.view_all::after{content:"";position:absolute;top:0;left:0;width:7px;height:7px;border-left:1px solid #000;border-bottom:1px solid #000}
