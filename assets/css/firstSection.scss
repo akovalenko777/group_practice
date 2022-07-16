@@ -9,7 +9,8 @@
         text-transform: uppercase;
         color: #101010;
     }
-    .first_screen_item{
+    .first_screen_block{
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
