@@ -13,7 +13,7 @@ html, body {
 
 body {
     background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ClashDisplay', 'Arial', sans-serif;
     color: #252525;
     font-size: 1rem;
 }
@@ -52,5 +52,10 @@ h1 {
 main {
     flex-grow: 1;
 }
+<<<<<<< HEAD
 @import 'firstSection.min.css';
+    
+=======
 
+@import 'quote.scss';
+>>>>>>> 2c82f5c (fonts added)
