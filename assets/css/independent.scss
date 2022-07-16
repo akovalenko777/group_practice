@@ -1,0 +1,115 @@
+.independent_wrap {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .section_header {
+        position: relative;
+        top: 30px;
+        .date {
+            font-size: 22px;
+            line-height: 160%;
+            text-align: center;
+            color: #101010;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 200px;
+            line-height: 90%;
+            text-align: center;
+            color: #DB574D;
+        }
+    }
+    .section_pic {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .section_content {
+        display: flex;
+        .button {
+            flex-basis: 30%;
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 20px;
+                gap: 10px;
+                width: 176.5px;
+                height: 54px;
+                border: 1px solid #DB574D;
+                border-radius: 100px;
+                background-color: transparent;
+                font-family: 'Clash Display';
+                font-size: 18px;
+                line-height: 120%;
+                color: #DB574D;
+            }
+        }
+        .about {
+            flex-basis: 70%;
+            font-family: 'Clash Display';
+            font-weight: 400;
+            &_title {
+                font-size: 30px;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: #101010;
+                margin-bottom: 40px;
+            }
+            &_descr {
+                font-size: 18px;
+                line-height: 160%;
+                color: #101010;
+                p {
+                    &:not(:last-child) {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1100px) {
+    .independent_wrap {
+        .section_header {
+            .title {
+                font-size: 150px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    .independent_wrap {
+        .section_header {
+            .title {
+                font-size: 100px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 667px) {
+    .independent_wrap {
+        .section_header {
+            .title {
+                font-size: 70px;
+                line-height: 90%;
+                text-align: center;
+                color: #DB574D;
+            }
+        }
+        .section_content {
+            flex-wrap: wrap;
+            .button {
+                flex-basis: 100%;
+                margin-bottom: 10px;
+            }
+            .about {
+                flex-basis: 100%;
+            }
+        }
+    }
+}
