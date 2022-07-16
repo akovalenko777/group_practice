@@ -1,3 +1,5 @@
+
+
 *, *::before, *::after {
     padding: 0;
     margin: 0;
@@ -14,7 +16,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #252525;
     font-size: 1rem;
-    line-height: 1.5rem;
 }
 
 .container {
@@ -40,7 +41,8 @@ ol, ul {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 200px;
+    color: #DB574D;
 }
 .page_wrapper {
     display: flex;
@@ -50,5 +52,5 @@ h1 {
 main {
     flex-grow: 1;
 }
-
+@import 'firstSection.min.css';
 
