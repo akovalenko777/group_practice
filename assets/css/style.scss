@@ -14,7 +14,7 @@ body {
 
 body {
   background-color: #fff;
-  font-family: "ClashDisplay", "Arial", sans-serif;
+  font-family: "ClashDisplay-Regular";
   color: #252525;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -52,9 +52,10 @@ h1 {
   flex-direction: column;
   height: 100%;
 }
+
 main {
   flex-grow: 1;
 }
 
 @import "quote.scss";
-@import "latest";
+@import "latest.scss";

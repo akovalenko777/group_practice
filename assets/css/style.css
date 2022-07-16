@@ -14,7 +14,7 @@ body {
 
 body {
   background-color: #fff;
-  font-family: "ClashDisplay", "Arial", sans-serif;
+  font-family: "ClashDisplay-Regular";
   color: #252525;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -62,11 +62,15 @@ main {
 .view_all {
   position: relative;
 }
+.view_all:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .view_all::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 12px;
+  left: 64px;
   width: 30px;
   height: 1px;
   border-top: 1px solid #000;
@@ -74,10 +78,103 @@ main {
 .view_all::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 9.5px;
+  left: 85.4px;
   width: 7px;
   height: 7px;
+  transform: rotate(217deg);
   border-left: 1px solid #000;
   border-bottom: 1px solid #000;
+}
+
+.title_line {
+  display: flex;
+  justify-content: space-between;
+}
+.title_line h3 {
+  padding-bottom: 128px;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.title_line h3 span {
+  text-transform: capitalize;
+  color: #db574d;
+}
+
+.above_img {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.above_img span {
+  text-transform: capitalize;
+  color: #db574d;
+}
+
+.down_img {
+  font-size: 16px;
+  max-width: 103px;
+}
+
+.first_photo_line,
+.second_photo_line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 128px;
+}
+.first_photo_line img,
+.second_photo_line img {
+  padding: 12px 0x;
+}
+
+.second_photo_line .first {
+  padding-left: 100px;
+}
+.second_photo_line .second {
+  position: relative;
+  bottom: 300px;
+  left: 0;
+  padding-right: 100px;
+}
+
+.serg_1 {
+  max-width: 700px;
+}
+
+.nick,
+.girl_img {
+  max-width: 410px;
+}
+
+.serg_2 {
+  max-width: 406px;
+}
+
+.above_img.first {
+  max-width: 217px;
+}
+
+.exh_card {
+  font-family: "ClashDisplay-Regular";
+  font-weight: 400;
+  margin-bottom: 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exh_card p {
+  max-width: 689px;
+}
+.exh_card .up_text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.exh_card h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.exh_card h3 span {
+  color: #db574d;
+  text-transform: capitalize;
 }
