@@ -110,6 +110,9 @@ main {
   line-height: 1.8rem;
   font-weight: 400;
 }
+#project2-dancing-in-black-white .del_line {
+  border-bottom: 0;
+}
 #project2-dancing-in-black-white .about_wrap {
   display: flex;
   gap: 104px;
