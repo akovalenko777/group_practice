@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'ClashDisplay-Regular';
-  src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+  src: url('./fonts/ClashDisplay-Regular.woff2') format('woff2'),
        url('./fonts/ClashDisplay-Regular.woff') format('woff');
        font-weight: 400;
        font-display: swap;
